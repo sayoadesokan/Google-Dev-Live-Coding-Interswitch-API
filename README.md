@@ -39,21 +39,17 @@ https://docs.interswitchgroup.com/docs/default-test-credentials
 
 This project follows a monolithic architecture and has the following folder structure:
 
-├── config
-│ └── config.js
-├── controllers
-│ ├── Controller.js
-├── routes
-│ ├── routes.js
-├── index.js
-├── .env
-└── package.json
+![Folder Structure](./images/img1.png)
 
 - The `config` folder contains configuration files for the application.
 - The `controllers` folder contains the controllers for the payment and user routes.
 - The `routes` folder contains the API routes for the payment and user data.
 - The `index.js` file is the entry point for the application.
 - The `.env` file is an important configuration file for the application. It is used to store sensitive information such as API keys, database credentials, and other secrets.
+
+## Expected Response
+
+![Response](./images/img2.png)
 
 ## Contributing
 
