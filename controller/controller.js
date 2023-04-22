@@ -1,15 +1,9 @@
-const testing = (req, res) => {
-  try {
-    res.send('Test call is working');
-  } catch (error) {
-    console.log(error);
-  }
-};
+const { PAY_ID, MERCHANT_CODE } = require('../config/config');
 
 const chargeCard = async (req, res) => {
   const samplePaymentRequest = {
-    merchant_code: 'MX19329',
-    pay_item_id: 'Default_Payable_MX19329',
+    merchant_code: MERCHANT_CODE,
+    pay_item_id: PAY_ID,
     transactionReference: 'sample_txn_ref_123',
     amount: 10000,
     currency: 566, // ISO 4217 numeric code of the currency used
@@ -41,5 +35,4 @@ const chargeCard = async (req, res) => {
 
 module.exports = {
   chargeCard,
-  testing,
 };
