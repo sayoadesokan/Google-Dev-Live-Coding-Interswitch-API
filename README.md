@@ -1,4 +1,4 @@
-# Google Developer Student Club CU Chapter Live Coding Session
+# GDSC CU Live Coding Sessions
 
 ## Backend with NodeJS
 
