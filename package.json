@@ -1,20 +1,22 @@
 {
-  "name": "file",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.0.4",
-    "nodemon": "^2.0.22"
-  }
+	"name": "backend-demo",
+	"version": "1.0.0",
+	"description": "Backend for communication with interswitch API, this is the from our Live Coding Series GDSC CU",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"mongoose": "^7.0.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
 }
