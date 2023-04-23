@@ -1,12 +1,18 @@
-# Google Developer Community Live Coding Session
+# GDSC CU Live Coding Sessions
 
-This is a live coding session that I created for the Google Developer Community in Covenant University in collaboration with Interswitch API. The purpose of this session is to teach beginners how to query an API and create payments using the Rest API, while also introducing them to monolithic architecture and good folder structure.
+## Backend with NodeJS
+
+This is a live coding session that I created for the Google Developer Student Club, Covenant University chapter in collaboration with Interswitch API. The purpose of this session is to teach beginners how to query an API and create payments using the Rest API, while also introducing them to monolithic architecture and good folder structure.
 
 ## Getting Started
 
 To get started with this project, you'll need to clone the repository:
 
-git clone https://github.com/sayoadesokan/Google-Dev-Live-Coding-Interswitch-API.git
+```bash
+  git clone https://github.com/sayoadesokan/Google-Dev-Live-Coding-Interswitch-API.git
+```
+
+https://www.freecodecamp.org/news/introduction-to-git-and-github/
 
 ## Prerequisites
 
@@ -15,19 +21,39 @@ You'll need to have the following installed on your local machine:
 - Node.js
 - npm
 
+https://nodejs.org/en/download
+
 ## Installation
 
-To install the dependencies for this project, run the following command in the project directory:
+- To install the dependencies for this project, run the following command in the project directory:
 
-- npm install
+```bash
+  npm install
+```
 
 ## Usage
 
+Setting up the .env file
+-- In the root directory of your project, locate the .env.example file.
+-- Rename the .env.example file to .env.
+-- Open the .env file in your editor of choice
+-- Fill in the required environment variables with their respective values.
+
 To run the project on your local machine, run the following command:
 
-- npm run dev or npm run start
+- For the Development Environmnet run:
 
-This will start the server and you can access the application at `http://localhost:3000`.
+```bash
+  npm run dev
+```
+
+- For Production Environment run:
+
+```bash
+ npm run start
+```
+
+This will start the server and you can access the application at `http://localhost:8080` or any other port specified in .env
 
 ## API
 
@@ -68,3 +94,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Conclusion
 
 Thank you for choosing to use this project to learn about querying an API, creating payments using the Rest API, and implementing good folder structure and monolithic architecture. If you have any questions or feedback, feel free to reach out to me. Happy coding!
+
+```
+
+```
